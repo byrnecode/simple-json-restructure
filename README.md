@@ -25,15 +25,11 @@ And convert that to this:
    "abc": {
       "10/12/12": { "volume": "45434", "price": "31" },
       "10/13/12": { "volume": "45435", "price": "30" }
-   }
-},
-{
+   },
    "xyz": {
       "10/12/12": { "volume": "34465", "price": "14" },
       "10/13/12": { "volume": "34434", "price": "14" }
-   }
-},
-{
+   },
    "zzz": {
       "10/12/12": { "volume": "76755", "price": "65" },
       "10/13/12": { "volume": "85646", "price": "67" }
@@ -42,7 +38,7 @@ And convert that to this:
 ]
 ```
 
-Files to restructure should be inside the **raw** folder, and it also accepts subfodlers (only accepts .json files).
+Files to restructure should be inside the **raw** folder, and it also accepts subfolders (only accepts .json files).
 
 ### Run in terminal
 
