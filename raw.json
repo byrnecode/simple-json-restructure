@@ -1,8 +1,0 @@
-[
-{"stock": "abc", "volume": "45434", "price": "31", "date": "10/12/12"},
-{"stock": "abc", "volume": "45435", "price": "30", "date": "10/13/12"},
-{"stock": "xyz", "volume": "34465", "price": "14", "date": "10/12/12"},
-{"stock": "xyz", "volume": "34434", "price": "14", "date": "10/13/12"},
-{"stock": "zzz", "volume": "76755", "price": "65", "date": "10/12/12"},
-{"stock": "zzz", "volume": "85646", "price": "67", "date": "10/13/12"}
-]

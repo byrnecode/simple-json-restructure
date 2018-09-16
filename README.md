@@ -42,17 +42,20 @@ And convert that to this:
 ]
 ```
 
+Files to restructure should be inside the **raw** folder, and it also accepts subfodlers (only accepts .json files).
+
 ### Run in terminal
 
 example - group by stock:
 ```
-node group-by-stock.js raw.json result/grouped-by-stock.json
+node group-by-stock.js result/grouped-by-stock.json
 ```
 
 example - group by date:
 ```
-node group-by-date.js raw.json result/grouped-by-date.json
+node group-by-date.js result/grouped-by-date.json
 ```
 
 Requirements:
 - Node.js
+- [node-dir](https://www.npmjs.com/package/node-dir)
