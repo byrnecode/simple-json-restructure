@@ -1,6 +1,6 @@
 # simple-json-restructure
 
-A simple task runner to restructure a json file and output it to a new file.
+A simple task runner in NodeJS to restructure a json file and output to a new file.
 
 For example I have a long list of one-level json data that look like this:
 **_raw.json_**
