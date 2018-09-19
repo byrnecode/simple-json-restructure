@@ -1,6 +1,6 @@
 # simple-json-restructure
 
-A simple task runner in NodeJS to restructure a json file and output to a new file.
+A simple task runner in NodeJS to restructure and combine jsons files, and output to a new file.
 
 For example I have a long list of one-level json data that look like this:
 **_raw.json_**
@@ -17,7 +17,7 @@ For example I have a long list of one-level json data that look like this:
 ```
 
 And convert that to this:
-**_grouped-by-stock.json_**
+**_output.json_**
 
 ```
 [
@@ -38,18 +38,19 @@ And convert that to this:
 ]
 ```
 
-Files to restructure should be inside the **raw** folder, and it also accepts subfolders (only accepts .json files).
+## Usage
 
-### Run in terminal
+Run in terminal:
+```
+git clone https://github.com/byrnecode/simple-json-restructure.git
+cd simple-json-restructure
+npm install
+```
 
-example - group by stock:
+Files to be restructured should be inside the **raw** folder, and it also accepts subfolders (only accepts .json files).
+Accepts multiple files.
 ```
-node group-by-stock.js result/grouped-by-stock.json
-```
-
-example - group by date:
-```
-node group-by-date.js result/grouped-by-date.json
+node convert.js result/output.json
 ```
 
 Requirements:

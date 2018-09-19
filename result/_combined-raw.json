@@ -70,23 +70,5 @@
     "volume": "85646",
     "price": "67",
     "date": "10/13/12"
-  },
-  {
-    "stock": "fff",
-    "volume": "45434",
-    "price": "31",
-    "date": "10/12/12"
-  },
-  {
-    "stock": "fff",
-    "volume": "45435",
-    "price": "30",
-    "date": "10/13/12"
-  },
-  {
-    "stock": "fff",
-    "volume": "45435",
-    "price": "30",
-    "date": "10/14/12"
   }
 ]
